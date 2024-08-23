@@ -11,7 +11,7 @@ class Location extends Model
 
     protected $table = 'location';
 
-    // Define quais campos podem ser preenchidos em massa
+    
     protected $fillable = [
         'street',
         'neighborhood',

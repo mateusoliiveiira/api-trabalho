@@ -21,7 +21,7 @@ class LocationController extends Controller
      */
     public function create()
     {
-        // Opcional: Mostrar um formulário para criar um novo recurso (não necessário para APIs RESTful)
+        
     }
 
     /**
@@ -33,7 +33,7 @@ class LocationController extends Controller
             'street' => 'required|string|max:255',
             'neighborhood' => 'required|string|max:255',
             'number' => 'required|string|max:20',
-            'zip_code' => 'required|string|max:20', // Corrigido para 'zip_code'
+            'zip_code' => 'required|string|max:20', 
             'city' => 'required|string|max:255',
             'state' => 'required|string|max:255',
             'country' => 'required|string|max:255',
@@ -60,7 +60,7 @@ class LocationController extends Controller
      */
     public function edit(string $id)
     {
-        // Opcional: Mostrar um formulário para editar um recurso (não necessário para APIs RESTful)
+        
     }
 
     /**
@@ -76,7 +76,7 @@ class LocationController extends Controller
             'street' => 'required|string|max:255',
             'neighborhood' => 'required|string|max:255',
             'number' => 'required|string|max:20',
-            'zip_code' => 'required|string|max:20', // Corrigido para 'zip_code'
+            'zip_code' => 'required|string|max:20', 
             'city' => 'required|string|max:255',
             'state' => 'required|string|max:255',
             'country' => 'required|string|max:255',
